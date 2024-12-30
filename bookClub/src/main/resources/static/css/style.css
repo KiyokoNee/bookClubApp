@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.small-form {
+	width: 20%;
+}
+
+.full-form {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.centered-content{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.purple {
+	color: blueviolet;
+}
+
+label, input, button {
+	margin-top: 10px;
+}
