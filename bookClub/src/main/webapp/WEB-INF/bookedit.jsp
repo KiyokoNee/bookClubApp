@@ -24,6 +24,7 @@
 		<form:form class="full-form" modelAttribute="book" method="post" action="/books/${book.id}" >
 			<h2>Register</h2>
 			<input type="hidden" name="_method" value="put" />
+			<input type="hidden" name="user" value="${book.user.id}" />
 			<span class="text-danger"><form:errors path="title" /></span>
 			<div class="d-flex justify-content-between">
 				<form:label path="title">Title: </form:label>
