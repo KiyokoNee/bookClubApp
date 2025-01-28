@@ -152,7 +152,7 @@ public class UserController {
 	public String update(@Valid @ModelAttribute("book") Book book, BindingResult result, Model model) {
 		if(result.hasErrors()) {
 			model.addAttribute("book", book);
-			return "edit.jsp";
+			return "bookedit.jsp";
 		}
 		
 		bookServ.updateBook(book);
